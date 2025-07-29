@@ -7,18 +7,18 @@ import { TbBrandInstagram, TbBrandLinkedin } from "react-icons/tb"
 
 
 const Nav = () => {
-  const [show, setShow]=useState("hidden")
+  // const [show, setShow]=useState("hidden")
 
-  function mostrar(){
-    console.log(show)
-    setShow("block")
-    console.log(show)
-  }
-  function esconder(){
-    console.log(show)
-    setShow("hidden")
-    console.log(show)
-  }
+  // function mostrar(){
+  //   console.log(show)
+  //   setShow("block")
+  //   console.log(show)
+  // }
+  // function esconder(){
+  //   console.log(show)
+  //   setShow("hidden")
+  //   console.log(show)
+  // }
 
   // LINHA DE CÓDIGO PARA MENU DROPDOWN O CÓDIGO JÁ ESTÁ FUNCIONANDO
   //  <ul onMouseOver={()=> mostrar()} onMouseLeave={()=>esconder()} className="relative flex flex-col gap-2">
