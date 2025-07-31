@@ -19,10 +19,10 @@ const NavItem = ({text, path, icon, className, onOver, handleClick}:NavItemProps
   return (
 
         <li onClick={handleClick} onMouseOver={onOver} className={`${clsx(
-            'py-2 rounded hover:text-zinc-900 hover:font-bold dark:text-white transition-colors',
+            'py-2 rounded hover:text-zinc-800 dark:text-white hover:font-bold  transition-colors',
             {
               'text-zinc-900 font-bold': pathname === path, // ACTIVE
-              'text-gray-700': pathname !== path,
+              'text-zinc-900': pathname !== path,
             }
           ) } ${className ? className : ""}`}><Link href={path}>{icon}{text}</Link></li>
     

@@ -17,6 +17,29 @@ const data: dataProps[] = [
     caminhoImage: ["JUCECcover.jpg", "JUCECpag-8-9.jpg", "JUCECpag-36-37.jpg"],
     tipo: "Editorial",
   },
+  {
+    id: "5727a7bd-30c1-41ce-af0e-6a0bfcc8e035",
+    cliente: "Fundação Demócrito Rocha",
+    nomeTrabalho: "Anuário do Ceará 2022/2023",
+    descricao:
+      "A publicação editorial mais antiga do Ceará. Uma riqueza editorial e de design que traz o raiox dos principais dados sócio-econômicos do estado.",
+    caminhoImage: [ "anuario-2022-0.png",  "anuario-2022-1.png",  "anuario-2022-2.png",],
+    tipo: "Editorial",
+  },
+
+   {
+    id: '3110db58-d1c1-493c-8c10-94c42f7f8fa7',
+    cliente: "Assembleia Legislativa do Estado do Ceará",
+    nomeTrabalho: "Revista Plenário - Edição 69",
+    descricao: `O design editorial utiliza tipografia impactante para os títulos e uma forte conexão visual com as reportagens através de fotografias. As páginas apresentam um layout limpo, com destaque para as imagens e citações, proporcionando uma leitura engajante e informativa. Além do foco na questão da terra, a revista também destaca a resistência e a cultura do povo quilombola, como evidenciado no lançamento do documentário "Cumbe - Resistência e Afirmação". A publicação da Alece busca, assim, contribuir para o reconhecimento e a valorização da história e da luta dos quilombolas no Ceará.  `,
+    caminhoImage: [
+  "Plenario-ed-69-0.jpg",
+  "Plenario-ed-69.jpg",
+  "Plenario-ed-69-3.jpg",
+  "Plenario-ed-69-2.jpg",
+],
+    tipo: "Editorial",
+  },
  
   {
     id: "79af98aa-68fa-463f-b54a-898417606836",
@@ -78,20 +101,7 @@ const data: dataProps[] = [
   "Sabores-6.jpg"
 ],
     tipo: "Editorial",
-  },
-  {
-    id: '3110db58-d1c1-493c-8c10-94c42f7f8fa7',
-    cliente: "Assembleia Legislativa do Estado do Ceará",
-    nomeTrabalho: "Revista Plenário - Edição 69",
-    descricao: `O design editorial utiliza tipografia impactante para os títulos e uma forte conexão visual com as reportagens através de fotografias. As páginas apresentam um layout limpo, com destaque para as imagens e citações, proporcionando uma leitura engajante e informativa. Além do foco na questão da terra, a revista também destaca a resistência e a cultura do povo quilombola, como evidenciado no lançamento do documentário "Cumbe - Resistência e Afirmação". A publicação da Alece busca, assim, contribuir para o reconhecimento e a valorização da história e da luta dos quilombolas no Ceará.  `,
-    caminhoImage: [
-  "Plenario-ed-69-0.jpg",
-  "Plenario-ed-69.jpg",
-  "Plenario-ed-69-3.jpg",
-  "Plenario-ed-69-2.jpg",
-],
-    tipo: "Editorial",
-  },
+  }
 ];
 
 export default data;
