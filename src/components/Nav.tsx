@@ -36,7 +36,7 @@ const Nav = () => {
     <NavItem handleClick={showMenu} path={"/"} text="Portfolio" className=""/>
     {/* <NavItem handleClick={showMenu} path={"/logos"} text="Logomarcas"/> */}
     {/* <NavItem handleClick={showMenu} path={"/web"} text="Web"/> */}
-    <NavItem handleClick={showMenu} path={"/contato"} text="Contado"/>
+    <NavItem handleClick={showMenu} path={"/contato"} text="Contato"/>
     <NavItem handleClick={showMenu} path={"https://www.instagram.com/muratore_designer"} text={<TbBrandInstagram size={24}/>}/>
     <NavItem path={"https://www.linkedin.com/in/alessandro-muratore"} text={<TbBrandLinkedin size={24}/>}/>
     </ul>
