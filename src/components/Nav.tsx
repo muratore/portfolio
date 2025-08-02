@@ -34,8 +34,8 @@ const Nav = () => {
     <Logo/>
     <ul className={`fixed pt-22 h-[340px] bg-inherit dark:bg-zinc-950 dark:md:bg-zinc-950 transition-all duration-300 px-4 md:h-[auto] ${show} lg:top-0 w-full md:pt-0 z-10 lg:relative lg:flex lg:justify-end gap-4`}>
     <NavItem handleClick={showMenu} path={"/"} text="Portfolio" className=""/>
-    <NavItem handleClick={showMenu} path={"/logos"} text="Logomarcas"/>
-    <NavItem handleClick={showMenu} path={"/web"} text="Web"/>
+    {/* <NavItem handleClick={showMenu} path={"/logos"} text="Logomarcas"/> */}
+    {/* <NavItem handleClick={showMenu} path={"/web"} text="Web"/> */}
     <NavItem handleClick={showMenu} path={"/contato"} text="Contado"/>
     <NavItem handleClick={showMenu} path={"https://www.instagram.com/muratore_designer"} text={<TbBrandInstagram size={24}/>}/>
     <NavItem path={"https://www.linkedin.com/in/alessandro-muratore"} text={<TbBrandLinkedin size={24}/>}/>

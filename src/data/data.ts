@@ -23,7 +23,7 @@ const data: dataProps[] = [
     nomeTrabalho: "Anuário do Ceará 2022/2023",
     descricao:
       "A publicação editorial mais antiga do Ceará. Uma riqueza editorial e de design que traz o raiox dos principais dados sócio-econômicos do estado.",
-    caminhoImage: [ "anuario-2022-0.png",  "anuario-2022-1.png",  "anuario-2022-2.png",],
+    caminhoImage: [ "anuario-2022-0.png",  "anuario-2022-1.png",  "anuario-2022-2.png","anuario-2022-3.png"],
     tipo: "Editorial",
   },
 
@@ -37,6 +37,19 @@ const data: dataProps[] = [
   "Plenario-ed-69.jpg",
   "Plenario-ed-69-3.jpg",
   "Plenario-ed-69-2.jpg",
+],
+    tipo: "Editorial",
+  },
+   {
+    id: '70a09403-8e0d-4a67-bba7-99d888de1e37',
+    cliente: "14Bis",
+    nomeTrabalho: "Revista MOVE",
+    descricao: `Revista voltada pra o mercado de agência de publicidade`,
+    caminhoImage: [
+ "move-1920px.jpg",
+  "move-1-1920px.jpg",
+  "move-2-1920px.jpg",
+  "move-3-1920px.jpg",
 ],
     tipo: "Editorial",
   },
