@@ -3,7 +3,6 @@
 import React, { useState, useRef } from 'react';
 import emailjs from '@emailjs/browser';
 
-
 const serviceId = process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID || '';
 const templateId = process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID || '';
 const publicKey = process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY || '';
@@ -69,11 +68,11 @@ const FormularioContato = () => {
   };
 
   return (
-     <div className="max-w-md mx-auto p-6 bg-white shadow-lg rounded-lg">
-      <h2 className="text-2xl font-bold text-gray-800 mb-6 text-center">Entre em Contato</h2>
+     <div className="max-w-[800px] mx-auto p-6 shadow-lg rounded-lg">
+      <h2 className="text-2xl font-bold mb-6 text-center">Entre em Contato</h2>
       <form ref={form} onSubmit={handleSubmit} className="space-y-4">
         <div>
-          <label htmlFor="name" className="block text-sm font-medium text-gray-700">
+          <label htmlFor="name" className="block text-sm font-medium">
             Nome:
           </label>
           <input
@@ -87,7 +86,7 @@ const FormularioContato = () => {
           />
         </div>
         <div>
-          <label htmlFor="email" className="block text-sm font-medium text-gray-700">
+          <label htmlFor="email" className="block text-sm font-medium">
             Email:
           </label>
           <input
@@ -101,7 +100,7 @@ const FormularioContato = () => {
           />
         </div>
         <div>
-          <label htmlFor="message" className="block text-sm font-medium text-gray-700">
+          <label htmlFor="message" className="block text-sm font-medium">
             Mensagem:
           </label>
           <textarea

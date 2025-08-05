@@ -2,7 +2,9 @@ export interface dataProps {
   id: string;
   cliente: string;
   nomeTrabalho: string;
+  problema?: string
   descricao: string;
+  solucao?:string
   caminhoImage: string[];
   tipo: string;
 }
@@ -12,6 +14,7 @@ const data: dataProps[] = [
     id: "7e894ae9-b80d-48ed-81ff-31f3a8970b11",
     cliente: "Junta Comercial do Ceará",
     nomeTrabalho: "Revista Empreendedor Digital",
+    problema: "Como fazer o usuário final utilizar as soluções criadas pelas Juntas comerciais",
     descricao:
       "A revista Empreendedor Digital é uma publicação semestral digitalizada e editada pela coordenação de Comunicação do Convênio Redesim Conectada, formado por nove Juntas Comerciais e pelo Sebrae.",
     caminhoImage: ["JUCECcover.jpg", "JUCECpag-8-9.jpg", "JUCECpag-36-37.jpg"],

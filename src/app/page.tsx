@@ -7,7 +7,12 @@ import TrabalhoContext from "@/contexts/TrabalhosProvider";
 export default function Home() {
   const { data } = useContext(TrabalhoContext);
   return (
-    <div className="container m-auto grid grid-cols-2 sm:grid-cols-3 xl:grid-cols-4 pt-20 ">
+    <div>
+
+    <div className=" container m-auto mt-25 lg:mt-30 text-center lg:mb-10 w-full">
+        <h1 className="text-3xl font-thin lg:text-7xl lg: tracking-wide">Transformo textos longos em <em>design</em> atraente e impactante que valoriza o seu projeto</h1>
+    </div>
+    <div className="container m-auto grid grid-cols-2 sm:grid-cols-3 xl:grid-cols-4 pt-5 ">
       {data.map((job) => (
         <div key={job.id} className="relative w-full h-[250px] sm:h-[250px] lg:h-[300px] ">
           <Link href={`/portfolio/${job.id}`} className="">
@@ -16,11 +21,11 @@ export default function Home() {
               alt={job.nomeTrabalho}
               fill
               className="object-cover"
-              
             />
           </Link>
         </div>
       ))}
     </div>
+     </div>
   );
 }
